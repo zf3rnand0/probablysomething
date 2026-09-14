@@ -54,5 +54,9 @@
 	{
 		"date": "01/09/2026",
 		"change": "Added 'Want to buy' section to Music/CDs page, added release year to album info on the same page."
+	},
+	{
+		"date": "14/09/2026",
+		"change": "Uploaded 'New site coming soon!' blog post."
 	}
 ]
