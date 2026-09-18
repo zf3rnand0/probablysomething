@@ -7,7 +7,7 @@ contentArtist: Johnny Foreigner
 contentYear: 2014
 albumCover: "/assets/images/covers/youCanDoBetter.jpg"
 review: false
-format: "future"
+format: "cd"
 ---
 
 Review coming soon™
