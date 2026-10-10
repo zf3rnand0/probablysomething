@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>{{ page.title }}</title>
+	{% if page.customStyle %}
+		<link rel="stylesheet" href="{{ page.customStyle }}">
+	{% endif %}
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<script async src="/assets/js/sysTools.js"></script>
+</head>
+<body>
+	<div class="window glass active logoWindow">
+		<div class="title-bar">
+			<div class="title-bar-text">definatelyNotAdware.exe</div>
+			<div class="title-bar-controls">
+			<button aria-label="Help"></button>
+			<button aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="window-body" id="logoWindowBody">
+			{% include logo.html %}
+		</div>
+	</div>
+	{{ content }}
+</body>
+</html>

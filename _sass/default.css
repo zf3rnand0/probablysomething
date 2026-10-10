@@ -1,0 +1,16 @@
+html {
+	background-image: url("/assets/images/backgrounds/Innsbruck\ Ski\ Jump.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left center;
+	background-size: cover;
+}
+
+.logoWindow {
+	max-width: min-content;
+	margin: 30px 0 0 50px;
+}
+
+#logoWindowBody {
+	background-color: #050e1aff;
+}

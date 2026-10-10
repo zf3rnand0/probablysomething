@@ -1,0 +1,92 @@
+g g g {
+  transform: translateY(2px);
+}
+
+g g g {
+  animation-name: wiggleWiggle;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wiggleWiggle {
+  20%,
+  100% {
+    transform: translate(0, 2px); /* stay on the baseline for most of the animation duration */
+  }
+
+  0% {
+    transform: translate(0, 0px); /* hop up */
+  }
+  10% {
+    transform: translate(0, 2px); /* return to baseline */
+  }
+}
+
+#P {
+	animation-delay: 0s;
+}
+
+#r {
+	animation-delay: 0.1s;
+}
+
+#o1 {
+	animation-delay: 0.2s;
+}
+
+#b1 {
+	animation-delay: 0.3s;
+}
+
+#a {
+	animation-delay: 0.4s;
+}
+
+#b2 {
+	animation-delay: 0.5s;
+}
+
+#l {
+	animation-delay: 0.6s;
+}
+
+#y {
+	animation-delay: 0.7s;
+}
+
+#S {
+	animation-delay: 0.8s;
+}
+
+#o2 {
+	animation-delay: 0.9s;
+}
+
+#m {
+	animation-delay: 1s;
+}
+
+#e {
+	animation-delay: 1.1s;
+}
+
+#t {
+	animation-delay: 1.2s;
+}
+
+#h {
+	animation-delay: 1.3s;
+}
+
+#i {
+	animation-delay: 1.4s;
+}
+
+#n {
+	animation-delay: 1.5s;
+}
+
+#g {
+	animation-delay: 1.6s;
+}
+
