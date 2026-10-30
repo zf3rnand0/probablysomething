@@ -14,14 +14,34 @@
 		<div class="title-bar">
 			<div class="title-bar-text">definatelyNotAdware.exe</div>
 			<div class="title-bar-controls">
-			<button aria-label="Help"></button>
-			<button aria-label="Close"></button>
+				<button aria-label="Help"></button>
+				<button aria-label="Close"></button>
 			</div>
 		</div>
 		<div class="window-body" id="logoWindowBody">
 			{% include logo.html %}
 		</div>
 	</div>
-	{{ content }}
+
+	<div class="desktopIcons" id="ctrlPanelLink" tabindex="0">
+		<img src="/assets/images/icons/ctrlPanel.png">
+		<p>Control Panel</p>
+	</div>
+
+	<div class="window glass active mainContent">
+		<div class="title-bar">
+			<div class="title-bar-text">{{ page.exeTitle }} </div>
+			<div class="title-bar-controls">
+				<button aria-label="Minimize"></button>
+				<button aria-label="Maximize"></button>
+				<button aria-label="Close"></button>
+			</div>
+		</div>
+
+		<div class="window-body">
+			{{ content }}
+		</div>
+	</div>
+	
 </body>
 </html>

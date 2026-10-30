@@ -1,4 +1,9 @@
-document.getElementById("backgroundApplyBtn").addEventListener("click", setBackground);
+//document.getElementById("backgroundApplyBtn").addEventListener("click", setBackground);
+document.getElementById("ctrlPanelLink").addEventListener("dblclick", openCtrlPanel);
+
+document.addEventListener("DOMContentLoaded", function() {
+	setBackgroundOnLoad();
+});
 
 function backgroundSwitchDropdown() {
 	var photoList = ["Clifton Suspension Bridge.jpg", "Collapsing Bridge (Bevere).jpg", "Flooded Field (Slingpool Walk).jpg", 
@@ -28,6 +33,22 @@ function setBackground () {
 	var selection = encodeURIComponent(select.options[select.selectedIndex].value); 
 	
 	document.documentElement.style.setProperty("background-image", `url("/assets/images/backgrounds/${selection}")`);
+	cookieStore.set("background", `${selection}`);
 }
 
-backgroundSwitchDropdown();
+async function setBackgroundOnLoad() {
+	var selection = encodeURIComponent("Innsbruck Ski Jump.jpg");
+
+	if (cookieStore.get("background")) {
+		selection = (await cookieStore.get("background")).value;
+	}
+
+	document.documentElement.style.setProperty("background-image", `url("/assets/images/backgrounds/${selection}")`);
+}
+
+function openCtrlPanel() {
+	document.activeElement.blur();
+	console.log("ghaghdfhg");
+}
+
+//backgroundSwitchDropdown();
