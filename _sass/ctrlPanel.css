@@ -1,0 +1,15 @@
+#ctrlPanel {
+	position: absolute;
+	z-index: -1;
+	display: none;
+}
+
+.ctrlPanelTitlebar {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.ctrlPanelAddrbar {
+	align-self: flex-start;
+}

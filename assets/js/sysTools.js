@@ -1,9 +1,12 @@
 //document.getElementById("backgroundApplyBtn").addEventListener("click", setBackground);
 document.getElementById("ctrlPanelLink").addEventListener("dblclick", openCtrlPanel);
+document.getElementById("ctrlPanelClose").addEventListener("click", closeCtrlPanel);
 
 document.addEventListener("DOMContentLoaded", function() {
 	setBackgroundOnLoad();
 });
+
+const CTRLPANEL = document.getElementById("ctrlPanel");
 
 function backgroundSwitchDropdown() {
 	var photoList = ["Clifton Suspension Bridge.jpg", "Collapsing Bridge (Bevere).jpg", "Flooded Field (Slingpool Walk).jpg", 
@@ -48,7 +51,11 @@ async function setBackgroundOnLoad() {
 
 function openCtrlPanel() {
 	document.activeElement.blur();
-	console.log("ghaghdfhg");
+	CTRLPANEL.style.display = "block";
+}
+
+function closeCtrlPanel() {
+	CTRLPANEL.style.display = "none";
 }
 
 //backgroundSwitchDropdown();
