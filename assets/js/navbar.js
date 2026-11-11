@@ -40,9 +40,9 @@ function timeSet () {
 
 	var minute = String(dateObj.getUTCMinutes()).padStart(2, "0");
 	//Winter time:
-	//var hour = String(dateObj.getUTCHours()).padStart(2, "0");
+	var hour = String(dateObj.getUTCHours()).padStart(2, "0");
 	//Summer time:
-	var hour = String(dateObj.getUTCHours() + 1).padStart(2, "0");
+	//var hour = String(dateObj.getUTCHours() + 1).padStart(2, "0");
 
 	if (timeObj.innerHTML.includes(":")) {
 		timeObj.innerHTML = hour + " " + minute;
