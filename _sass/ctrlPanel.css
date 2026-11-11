@@ -1,7 +1,7 @@
 #ctrlPanel {
 	position: absolute;
 	z-index: 1;
-	-display: none;
+	display: none;
 	margin: -90px 0 0 190px;
 	width: 600px;
 }
@@ -44,4 +44,9 @@
 
 #CPABIcon {
 	width: 20px;
+}
+
+.tabs > article > p {
+	margin-top: 3px;
+	margin-bottom: 3px;
 }

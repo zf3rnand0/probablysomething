@@ -6,8 +6,8 @@
 			<button aria-label="Close" id="ctrlPanelClose"></button>
 		</div>
 		<div class="ctrlPanelAddrbarHolder">
-			<img src="/assets/images/icons/ctrlPanel/forward.png" style="rotate: 180deg;">
-			<img src="/assets/images/icons/ctrlPanel/forward.png">
+			<img src="/assets/images/icons/ctrlPanel/forward.png" style="transform: scale(-1, -1);">
+			<img src="/assets/images/icons/ctrlPanel/forward.png" style="transform: scale(1, -1);">
 			<div class="ctrlPanelAddrbar window-body">
 				<img src="/assets/images/icons/ctrlPanel/ctrlPanel.png" id="CPABIcon">
 				<p>Control Panel</p>
@@ -18,7 +18,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="window-body">
-		Hello, World!
+	<div class="window-body has-space">
+		<section class="tabs">
+			<menu role="tablist" aria-label="Control Panel Tabs">
+				<button role="tab" aria-controls="general-tab" aria-selected="true">General</button>
+			</menu>
+			<article role="tabpanel" id="general-tab">
+				<p>Set desktop background:</p>
+				<select id="backgroundDropdown"></select>
+				<button id="backgroundApplyBtn">Apply</button>
+			</article>
+		</section>
+		<strong style="color: purple; margin:3px;">Use the "X" button to close the window!</strong>
 	</div>
 </div>
