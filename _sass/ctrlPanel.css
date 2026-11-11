@@ -1,7 +1,9 @@
 #ctrlPanel {
 	position: absolute;
-	z-index: -1;
-	display: none;
+	z-index: 1;
+	-display: none;
+	margin: -90px 0 0 190px;
+	width: 600px;
 }
 
 .ctrlPanelTitlebar {
@@ -10,6 +12,36 @@
 	align-items: end;
 }
 
-.ctrlPanelAddrbar {
+.ctrlPanelAddrbarHolder {
 	align-self: flex-start;
+	display: flex;
+	flex-direction: row;
+	width: calc(100%);
+	align-content: stretch;
+}
+
+.ctrlPanelAddrbarHolder > * {
+	height: min-content;
+	align-self: center;
+}
+
+.ctrlPanelAddrbar {
+	margin-top: 6.5px;
+	padding: 1.5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: min-content;
+	gap: 10px;
+	width: 100%;
+}
+
+.ctrlPanelAddrbar > p {
+	vertical-align: middle;
+	margin: 0px;
+	width: max-content;
+}
+
+#CPABIcon {
+	width: 20px;
 }

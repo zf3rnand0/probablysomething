@@ -11,6 +11,7 @@ html {
 	position: absolute;
 	z-index: -1;
 	max-width: min-content;
+	width: min-content;
 	margin: 30px 0 0 50px;
 }
 
