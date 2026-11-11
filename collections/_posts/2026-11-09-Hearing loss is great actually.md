@@ -23,6 +23,7 @@ A band called Lumi was the opening act, one of the women said she grew up in Ger
 
 | ![Wasia project performing](/assets/images/blogImgs/261109-wp1.jpg) |
 | *Wasia Project!* |
+
 Finally, two hours after the show's start time, Wasia Project came on. Whereas the previous band had been a comfortable volume, clearly audible over the crowd, while still being a reasonable volume, Wasia was **ABSOULETLY DEAFENING**. One friend had brought ear plugs, and the other had hearing aids, so they were both fine, however I have almost certainly damaged my hearing from the extremely loud performance (seriously, if you're gonna go to a gig, make sure to bring some kind of ear plugs just in case).
 
 Despite this, it was a thorougly enjoyable experience, and completely different to listening to their music on MiniDisc, the radio or Spotify. The crowd was amazing, and you could really sense the emotion behind the music. If you ever get the chance to see a band you love (or just have remotely any interest in) live, **TAKE IT!**
@@ -33,4 +34,4 @@ Despite this, it was a thorougly enjoyable experience, and completely different 
 As we were walking to the O2, we got some great views of Birmingham in the dark fog. Many of the new skyscrapers are covered in lights like in Tokyo, and it give an AMAZING effect when it's foggy. Sadly, lots of the best buildings we passed where when I was driving home, so I couldn't get photos of them.
 
 | ![The road at the front of Birmignham ](/assets/images/blogImgs/261109-fog1.jpg) |
-| *Birmingham looking like a scene from Cyberpunk 2077 - my friend's photo* |
+| *Birmingham looking like a scene from Cyberpunk 2077 - my photo* |
